@@ -15,4 +15,4 @@ git pull
 git add -A
 $message = Read-Host "Please enter your commit message"
 git commit -m $($message)
-git push -u origin main
+git push -u origin master
