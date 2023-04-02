@@ -11,6 +11,7 @@ for ($i=0; $i -lt $farray.Length; $i++)
   }
 
 cd $($dest)
+git pull
 git add -A
 $message = Read-Host "Please enter your commit message"
 git commit -m $($message)
